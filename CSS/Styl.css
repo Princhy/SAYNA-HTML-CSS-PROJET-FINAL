@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background: #d35649;
+    padding: 2%;
+}
+#logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+h2{
+    color: #eee;
+}
+.nav-link{
+    color: #eee;
+    text-decoration: none;
+}
+
+/**************section 1*********/
+#Section1{
+    background: url("../Assets/Images/group-1.jpg");
+    background-size: cover;
+    height: 60vh;
+    background-position-y: -250px;
+    text-align: center;
+    
+}
+#text{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding-top: 5%;
+}
+#Search{
+    
+    text-align: center;
+    width: 100%;
+    padding: 0 25%;
+    border-radius: 5px;
+    
+}
+#Search form{
+    
+    background-color:rgba(255, 255, 255, 0.562);
+    padding: 3%;
+    
+}
+#Search form input{
+    width: 85%;
+}
+#Search form button{
+    background-color: #d35649;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+#Work{
+    background-color: white;
+    width: 7%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    }
+
+    /******************section2***************************/
+.container-fluid {
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0;
+}
+.col-md-12{
+    text-align: center;
+    color: #d35649;
+    font-size: 2rem;
+}
+.col-md-6{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/***************Section3*********************/
+#orange{
+    background-color: #d35649;
+    width: 100%;
+
+}
+#gris{
+    background-color: #98a5a5; ;
+}
+#bleu{
+    background-color: #509bd7;
+}
+.sect3{
+    display: flex;
+    justify-content:;
+    width: 100%;
+    color: white;
+}
+.sect3 .image-rond{
+    border-radius: 50%;
+}
+.lettre{
+    width: 70%;
+}
+
+/****************FOOTER******************/
+
+footer section{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+}
+footer section div{
+    padding: 0 5%;
+}
+.foot1 ul{
+    display: flex;
+   
+    list-style-type: none;
+    width:auto;
+}
+.foot1 ul li{
+    padding: 5%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#maps{
+    display: grid;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 60%;
+}
