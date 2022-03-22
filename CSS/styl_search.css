@@ -1,0 +1,51 @@
+#section01{
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 3% 0;
+}
+section .col-md-12 p{
+    color: gray;
+    font-weight: bolder;
+}
+section article{
+    margin: 2% 0;
+    
+}
+#section01 input{
+    width: 100%;
+    padding: 0.3rem;
+}
+#section01 label{
+    font-weight: bolder;
+}
+
+
+
+
+#section02{
+        margin: 2% 0;
+}
+#section02 article img{
+background-color: #d35649;
+}
+@media (max-width:768px) {
+    #section02 .col-md-12 {
+        display: none;
+    }
+}
+figcaption{
+    position: absolute;
+    color: #eee;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px #eee;
+}
+#Searchs{
+    padding: 0.8rem;
+}
+#edit{
+    padding: 0.8rem;
+}
+#edit button{
+    background-color: #ffae00;
+    border: none;
+}

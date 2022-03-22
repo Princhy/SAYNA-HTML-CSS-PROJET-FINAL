@@ -20,6 +20,18 @@ h2{
     color: #eee;
     text-decoration: none;
 }
+@media (max-width:768px) {
+    .nav-link{
+        display: inline-block;
+    }
+    
+}
+.nav-link:hover{
+    color:#98a5a5;
+}
+.fas:hover{
+    color:#98a5a5;
+}
 
 /**************section 1*********/
 #Section1{
@@ -32,9 +44,13 @@ h2{
 }
 #text{
     text-align: center;
-    font-size: 2rem;
     color: white;
     padding-top: 5%;
+}
+#text >p{
+    font-size: 2rem;
+    text-shadow: 2px 1px 5px black;
+    
 }
 #Search{
     
@@ -67,6 +83,9 @@ h2{
     border-radius: 5px;
     margin-top: 2%;
     }
+#icon:hover{
+    color: #98a5a5;
+}
 
     /******************section2***************************/
 .container-fluid {
@@ -77,66 +96,140 @@ h2{
     width: 100%;
     margin: 0;
 }
-.col-md-12{
+.col-md-12 p {
     text-align: center;
     color: #d35649;
     font-size: 2rem;
+    padding:2% 0;
 }
 .col-md-6{
     text-align: center;
     font-size: 0.9rem;
+    padding: 0 3%;
+    
+}
+
+.col-md-6 p{
+    color:black
+}
+@media (max-width:768px){
+    .no_mobile{
+        display: none;
+    }
 }
 
 /***************Section3*********************/
-#orange{
+.orangee{
     background-color: #d35649;
-    width: 100%;
-
-}
-#gris{
-    background-color: #98a5a5; ;
-}
-#bleu{
-    background-color: #509bd7;
-}
-.sect3{
     display: flex;
-    justify-content:;
-    width: 100%;
-    color: white;
-}
-.sect3 .image-rond{
-    border-radius: 50%;
 }
 .lettre{
     width: 70%;
+
+}
+
+.image_rond{
+    width: 30%;
+}
+.image_rond img{
+    border-radius: 100%;
+    width: 90%;
+    padding: 5%;
+}
+ 
+.lettre h3{
+    padding: 5%;
+    color: white;
+}
+.lettre p{
+    padding: 0 5%;
+    font-size: 1rem;
+}
+.lettre button {
+    margin: 5%;
+    background-color: #eee;
+    color: #d35649;
+    padding: 0.5rem;
+    border: none;
+}
+
+#gris{
+    background-color: #98a5a5;
+}
+#bleu{
+    background-color: aqua;
 }
 
 /****************FOOTER******************/
+footer{
+    background-color: black;
+}
 
-footer section{
+footer #foot01{
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 3%;
     
 }
-footer section div{
-    padding: 0 5%;
+.foot1{
+    width: 35%;
 }
 .foot1 ul{
     display: flex;
-   
     list-style-type: none;
     width:auto;
+    color: white;
 }
 .foot1 ul li{
     padding: 5%;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 #maps{
     display: grid;
     align-items: center;
-    border: 3px solid black;
-    border-radius: 60%;
+    justify-items: center;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 0;
+    width: 10rem;
+    
+}
+
+#foot02 div div article{
+    padding:0;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    padding:5%;
+}
+p{
+    color: white;
+    font-size: 0.8rem;
+}
+a{
+    color: #d35649;
+    text-decoration: none;
+}
+#group{
+    width: 50%;
+    margin: 0 20%;
+}
+
+#foot03{
+    background-color:#98a5a5;
+}
+#reseaux ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+#reseaux ul li{
+    padding: 1%;
+}
+
+.foot03 .col-md-2 p{
+    padding: 1% 0;
 }

@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome.min.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/Styl.css">
+    
     <title>Menu</title>
 </head>
 <body>
@@ -18,16 +21,16 @@
             <div>
                 <ul class="nav justify-content-end">
                      <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="Desktop_Search_page.html"> <i><img src="Assets/Icones/search.png" alt="" width=" 20px"></i>Search</a>
+                          <a class="nav-link " aria-current="page" href="Desktop_Search_page.html"><i class="fas fa-search" style="color: white; " id="icon"></i> Search</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="Desktop_About_page.html"><i><img src="Assets/Icones/user.png" alt="" width="20px"></i>About</a>
+                         <a class="nav-link" href="Desktop_About_page.html"><i class="fas fa-user" style="color: white;"></i>About</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="#"><i><img src="Assets/Icones/rss.png" alt="" width="20px"></i> Blog</a>
+                         <a class="nav-link" href="#"><i class="fas fa-rss" style="color: white;"></i> Blog</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link"> <i><img src="Assets/Icones/menu.png" alt="" width="20px"></i>  More</a>
+                       <a class="nav-link"> <i class="fas fa-bars" style="color: white;"></i> More</a>
                     </li>
                     </ul>
     </div>
@@ -52,13 +55,14 @@
 </section>
 
 <!--Section 2-->
+<div class="no_mobile">
 <div class="container-fluid">
         <div class="row">
             <article class="col-md-12">
                 <p> [EVENTS] works in four simple steps. </p>
             </article>
             <article class="col-md-6">
-                <img src="Assets/Icones/locate_icon.svg" alt="" width="10%">
+                <i class="fas fa-search-location" style="font-size: 2rem;"></i>
                     <h3>1-Locate:</h3>
                     <p>It's simple, on [Events] homepage, enter the name of the location
                         you want to spend some good quality time with people and click on
@@ -66,7 +70,7 @@
             </article>
 
             <article class="col-md-6">
-                <img src="Assets/Icones/confirm_icon.svg" alt="" width="10%">
+                <i class="fas fa-check-double" style="font-size: 2rem;"></i>
                 <h3>2-Confirm or Create:</h3>
                 <p>Go to check the events nearby the location you searched for and
                     apply for any [Events] available. Every [gathering] has a subject,
@@ -75,7 +79,7 @@
                     </p>
             </article>
             <article class="col-md-6">
-                <img src="Assets/Icones/go_icon.svg" alt="" width="10%">
+                <img src="Assets/Icones/go_icon.svg" alt="" width="8%">
                 <h3>3-Go!</h3>
                 <p> Select the [Events], wait for the scheduled day and go! Be
                     prepared to meet new people, create new connections and have a
@@ -89,13 +93,13 @@
                 <p> Once you are at the [Events] location, look for the host, enjoy
                     and have fun!</p>
             </article>
+    </div>
 </div>
 </div>
-
 <!--Section 3-->
 <section>
-
-    <div id="orange"  class="sect3">
+ 
+    <div id="orange"  class="orangee">
         <div class="lettre">
             <h3>[Events]near you</h3>
             <p>Every month a new you might find [Events] near you and enjoy the
@@ -103,50 +107,51 @@
             <button>Find a [Events]</button>
         </div>
         <div class="image_rond">
-            <img src="Assets/Images/group-1.jpg" alt="" width="30%">
+            <img src="Assets/Images/group-2.jpg" alt="" width="30%">
         </div>
     </div>
 
 
-    <div id="gris" class="sect3">
+    <div id="gris" class="orangee">
         <div class="lettre">
             <h3>[Events] connecting you</h3>
-        <p>○ You can create [Events] events around your area and share them
-        with people you know and with whoever wants to connect</p>
-        <button>Learn more abour [events]</button>
+            <p> You can create [Events] events around your area and share them
+                 with people you know and with whoever wants to connect</p>
+            <button style="color: #98a5a5;">Learn more abour [events]</button>
         </div>
         <div class="image_rond">
-            <img src="Assets/Images/group-1.jpg" alt="" width="30%">
+            <img src="Assets/Images/group-3.jpg" alt="" width="30%">
         </div>
     </div>
 
 
-    <div id="bleu" class="sect3">
+    <div id="bleu" class="orangee">
         <div class="lettre">
-         <h3>[Events] spreding love </h3>
-            <p>  [Events] let you meet new people, share interests and spreading
-                love</p>
+                <h3>[Events] spreding love </h3>
+                <p>  [Events] let you meet new people, share interests and spreading
+                    love</p>
     
-        </div>
+         </div>
         <div class="image_rond">
-            <img src="Assets/Images/group-1.jpg" alt="" width="30%">
+                <img src="Assets/Images/group-4.jpg" alt="" width="30%">
         </div>
-    </div>
+     </div>    
 
 </section>
 
 <!-- Footer-->
 <footer>
-    <section>
+<div class="no_mobile">
+    <section id="foot01">
     <div class="foot1">
         <ul>
             <li>HOME</li>
             <li>SEARCH</li>
-            <li>ABOUT US</li>
+            <li>ABOUT</li>
             <li>ADVERTISE</li>
         </ul>
     </div>
-    <div id="maps"> <img src="Assets/Icones/mapsnavbar_icon.svg" alt="" width="40px"></div>
+    <div id="maps"> <i class="fas fa-map-marker-alt" style="color: white; font-size: 2rem;"></i></div>
     <div class="foot1">
         <ul>
             <li>FACEBOOK </li>
@@ -154,6 +159,52 @@
             <li>INSTAGRAM</li>
             <li>BLOG</li>
         </ul>
+    </div>
+</section>
+<section id="foot02">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <article class="col-md-4">
+                <h4>Suscribe</h4>
+                <div class="input-group" id="group">
+                    <input type="text"  placeholder="insert your e-mail here" class="form-control" style="background: none; width: 5%;">
+                    <button class="btn btn-outline-secondary" style="background-color: #98a5a5;color:white;"> Send</button>
+                    
+                </div>
+            </article>
+            <article class="col-md-4">
+                <h4>Contact</h4>
+                <p>Have a question or suggestion</p>
+                <a href="" >contact@events.com</a>
+            </article>
+            <article class="col-md-4">
+                <h4>About</h4>
+                <p>[Events] is a online plateforme that work to improve or increase
+                    social life connection,when this nightname that we are curently living in is
+                    over <a href="">learn more</a>
+                </p>
+            </article>
+        </div>
+        </div>
+</section>
+</div>
+<section id="foot03">
+    <div class="container-fluid">
+        <div class="row">
+            <article class="col-md-10" id="reseaux">
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                </ul>
+            </article>
+            <article class="col-md-2">
+                <p>2020[Events] Inc,All right reserved</p>
+               
+            </article>
+        </div>
     </div>
 </section>
 </footer>
